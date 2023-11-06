@@ -46,7 +46,7 @@ If you want it to launch in background everytime you login, make sure to add the
 >
 > Make sure that you are pasting these to the last lines of the file to avoid any weird behaviors with the `Amp` (`&`) symbol.
 
-```
+```bash
 # start auto-paste-kde-emoji in background
 auto-paste-kde-emoji &
 ```

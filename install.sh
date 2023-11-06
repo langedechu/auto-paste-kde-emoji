@@ -1,3 +1,5 @@
+bun install
+
 mkdir ~/.auto-paste-kde-emoji
 cp -r ./** ~/.auto-paste-kde-emoji
 

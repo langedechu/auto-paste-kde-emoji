@@ -23,7 +23,7 @@ clipboardListener.on("change", async () => {
   pasted = false;
 
   exec(
-    "xdotool key Escape Escape && sleep 0.1 && xdotool key ctrl+v",
+    "xdotool key Escape Escape && sleep 0.25 && xdotool key ctrl+v",
     (error, stdout, stderr) => {
       if (stdout) console.log(stdout);
       if (stderr) console.error(stderr);

@@ -1,0 +1,15 @@
+{
+  "name": "auto-paste-emoji",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "clipboard-event": "^1.6.0",
+    "clipboardy": "^4.0.0"
+  }
+}
